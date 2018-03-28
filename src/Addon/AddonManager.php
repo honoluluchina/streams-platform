@@ -152,7 +152,7 @@ class AddonManager
 
             $this->loader->classLoader()->addPsr4(
                 'Anomaly\\StreamsPlatformTests\\',
-                base_path('vendor/anomaly/streams-platform/tests')
+                base_path('vendor/anomaly/platform/tests')
             );
 
             $this->loader->register();

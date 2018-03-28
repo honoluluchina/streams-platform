@@ -44,7 +44,7 @@ class LoadApplicationInstallers
                         'migrate',
                         [
                             '--force' => true,
-                            '--path'  => 'vendor/anomaly/streams-platform/migrations/application',
+                            '--path'  => 'vendor/anomaly/platform/migrations/application',
                         ]
                     );
                 }

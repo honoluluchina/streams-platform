@@ -36,7 +36,7 @@ class ConfirmLicense
     {
         $this->command->info(strip_tags((new \Parsedown())->parse(file_get_contents(base_path('LICENSE.md')))));
 
-        if (!$this->command->confirm('Do you agree to the provided license and terms of service?')) {
+        if (!$this->command->confirm('Do you agree to the provided license and terms of service?','yes')) {
 
             $this->command->error('You must agree to the license and terms of service before continuing.');
 

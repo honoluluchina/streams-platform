@@ -52,7 +52,7 @@ class SetOtherData
             $this->command->askWithCompletion(
                 'Enter the default locale',
                 array_keys($config->get('streams::locales.supported')),
-                env('APPLICATION_LOCALE', 'en')
+                env('APPLICATION_LOCALE', 'zh-cn')
             )
         );
 

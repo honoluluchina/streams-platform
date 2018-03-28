@@ -1,4 +1,4 @@
-# Streams Platform
+# Streams Platform 1.3
 
 [![License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://packagist.org/packages/anomaly/streams-platform) 
 [![Build Status](https://scrutinizer-ci.com/g/anomalylabs/streams-platform/badges/build.png?b=master)](https://scrutinizer-ci.com/g/anomalylabs/streams-platform/build-status/master)

@@ -41,7 +41,7 @@ class AddonPaths
 
 
     /**
-     * Return all addon paths in a given folder.
+     * Return all addon path in a given folder.
      *
      * @return array
      */
@@ -157,7 +157,7 @@ class AddonPaths
      */
     public function shared()
     {
-        $path = base_path('addons/shared');
+        $path = base_path('applications');
 
         if (!is_dir($path)) {
             return false;
@@ -173,8 +173,8 @@ class AddonPaths
      */
     public function application()
     {
-        $path = base_path('addons/' . $this->application->getReference());
-
+        //$path = base_path('addons/' . $this->application->getReference());
+        $path = base_path('applications');
         if (!is_dir($path)) {
             return false;
         }

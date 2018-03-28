@@ -70,7 +70,7 @@ class Kernel extends \Illuminate\Foundation\Http\Kernel
     public function __construct(Application $app, Router $router)
     {
         $this->defineLocale();
-        $this->rewriteAdmin();
+        //$this->rewriteAdmin();
 
         $this->middleware         = $this->middleware;
         $this->routeMiddleware    = $this->routeMiddleware;

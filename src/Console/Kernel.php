@@ -33,6 +33,6 @@ class Kernel extends \Illuminate\Foundation\Console\Kernel
      */
     protected function commands()
     {
-        require base_path('routes/console.php');
+        require base_path('/resources/routes/console.php');
     }
 }

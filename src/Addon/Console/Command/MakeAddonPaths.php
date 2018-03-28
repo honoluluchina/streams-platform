@@ -62,7 +62,7 @@ class MakeAddonPaths
     {
         $shared = $this->command->option('shared') ? 'shared' : $application->getReference();
 
-        $path = base_path("addons/{$shared}/{$this->vendor}/{$this->slug}-{$this->type}");
+        $path = base_path("applications/{$this->vendor}/{$this->slug}-{$this->type}");
 
         $filesystem->makeDirectory($path, 0755, true, true);
 
